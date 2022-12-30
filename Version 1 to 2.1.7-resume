@@ -1,37 +1,45 @@
 Content
 Créations des premières commandes
 
-@ƝƘ | Bot 2 :flecheDRAFT: Renvoie quelques informations sur le bot
+@ƝƘ | Bot 2 Renvoie quelques informations sur le bot
 ping :flecheDRAFT: mentionne l'utilisateur dans indique le salon
 help :flecheDRAFT: Affiche les différentes commandes du bot
 
-Ajout de la commande down :flecheDRAFT: Déconnecte le bot
+Ajout de la commande down : Action : déconnecte le bot
+
 
 
 La nouvelle pdp de @ƝƘ | Bot 2 se présente désormais sur un fond différent (thème espace) pour éviter le doublon avec @ƝƘ | Bot 👑 
+
 Changement de nom pour la commande down
 
 Nouvelle commande :flecheDRAFT: @ƝƘ | Bot 2 down
 
+
 Changement léger sur la description de @ƝƘ | Bot 2 en raison du problème de mention sur PC qui apparait avec l'ID sur la première ligne.
 
 Synchronisation du code sur un cloud privé en ligne, me permettant de le modifier et de maintenir @ƝƘ | Bot 2 connecté depuis d'autres appareils.
+
 
 Correction d'un problème qui n'ignorait pas les bots si ils écrivaient des noms de commande.
 
 Création de la commande write
 Le bot renvoie "Je suis en train d'écrire" 
 Il sera visible "en train d'écrire" dans en dessous de la barre de saisie.
--
+
+
+
 Le message de la commande ping ne sera plus en réponse de l'utilisateur étant donné qu'elle mentionne déjà ce dernier.
 Ajout de la commande write dans le help de @ƝƘ | Bot 2
-Modifications mineures sur le markdown des commandes dans le help
+Modifications mineures sur le markdown des commandes dans le help.
 La mention du bot renverra maintenant le message sans mentionner l'utilisateur. 
+
 Changement code :
 La commande write a été déplacée dans un " client.on("ready", () => { " privatisé unique afin qu'elle puisse considérer le reply du bot sans gêner les autres commandes.
  
 Code : Nouvelle constante EmbedBuilder
 
+Partie code
 EmbedCode :
 
 client.on("messageCreate", message => {
@@ -55,3 +63,4 @@ Mise en commun des nouveaux éléments de code sur les 2 appareils
 Synchronisation du code pour les 2 appareils avec l'extension Live Share
 
 
+Version total changes 2.1.7
